@@ -67,7 +67,7 @@ chunks = chunk_parser.parse(pos_tags)
 # apply Named Entity Recognition
 named_entities = ne_chunk(pos_tags)
 
-print(named_entities)
+# print(named_entities)
 
 # emotion extraction using a predefined list of emotions
 emotion_list = []
